@@ -127,6 +127,7 @@ img {
 
 /* header */
 #header {
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   height: 70px;
@@ -151,6 +152,17 @@ img {
 }
 #header #menuBtn {
   display: none;
+}
+#header .nav-menu .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  height: 70px;
+  color: #ffffff;
+  padding: 16px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.3764705882) 1px 1px 3px);
+}
+#header .nav-menu .nav-link:hover {
+  text-decoration: underline;
 }
 
 /* firstview */
